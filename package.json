@@ -1,0 +1,26 @@
+{
+  "name": "directory_of_books",
+  "version": "1.0.0",
+  "description": "Directory to practice NodeJS development",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agudelojohn/NodeJS_LV1_Directory.git"
+  },
+  "author": "John Agudelo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agudelojohn/NodeJS_LV1_Directory/issues"
+  },
+  "homepage": "https://github.com/agudelojohn/NodeJS_LV1_Directory#readme",
+  "dependencies": {
+    "casual": "^1.6.2",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
