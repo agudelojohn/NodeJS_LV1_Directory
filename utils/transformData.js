@@ -4,7 +4,7 @@ const populate = (amount) => {
   let books = [];
   for (let i = 0; i < amount; i++)
     books.push({
-      id: casual.uuid,
+      id: i,
       title: casual.title,
       type: casual.random_element(['Horror', 'Drama', 'Comedy', 'Fiction']),
       description: casual.description,
